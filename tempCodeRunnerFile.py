@@ -1,1 +1,1 @@
-cv2.ROTATE_90_CLOCKWISE
+img.shape[2]
