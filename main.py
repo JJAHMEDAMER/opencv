@@ -3,6 +3,8 @@ import cv2
 img = cv2.imread("img.jpg")
 img = cv2.resize(img,(0,0),fx = 0.5, fy = 0.5)
 
+cv2.imshow("Win", img)
+
 img = cv2.rotate(img, cv2.ROTATE_180)
 cv2.imshow("win", img)
 
